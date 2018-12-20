@@ -11,7 +11,7 @@ attr_reader :id
  create_table :student do |t|
    t.string :name
    t.string :grade
-   t.integer :id
+   t.integer :id = nil 
 
  end
   end
